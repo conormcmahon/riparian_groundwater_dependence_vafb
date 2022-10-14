@@ -37,6 +37,8 @@ well_summary <- well_data %>%
 well_data <- merge(well_data, well_summary[,c(1,4,5,6,7,11,12)], by="site_code")
 
 well_summary_spatial <- well_summary
+well_summary_spatial$start_year <- as.numeric(substr(well_summary_spatial$start_date,1,4))
+well_summary_spatial$end_year <- as.numeric(substr(well_summary_spatial$end_date,1,4))
 coordinates(well_summary_spatial) <- ~longitude+latitude
 plot(well_summary_spatial)
 projection(well_summary_spatial) <- CRS("+init=epsg:4267")

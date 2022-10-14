@@ -1,0 +1,46 @@
+Landsat 5
+- download XXX
+- stack/crop XXX
+- quality/NDVI generation XXX
+- NDVI Phenoseries XXX -XXX
+- MESMA XXX -X
+- MESMA Phenoseries XXX -
+
+Landsat 8
+- download XXX
+- stack/crop XXX
+- quality/NDVI generation XXX
+- NDVI Phenoseries XXX -XXX
+- MESMA XXX
+- MESMA Phenoseries XXX
+
+--- South Coast ---
+
+Landsat 5
+- download XXX
+- stack/crop XXX
+- quality/NDVI generation XXX
+- MESMA - up until 1990 042
+- MESMA Phenoseries 
+- NDVI Phenoseries X
+
+Landsat 8
+- download XXX
+- stack/crop X
+- quality/NDVI generation 
+- NDVI Phenoseries 
+- MESMA 
+- MESMA Phenoseries 
+
+currently rerunning mesma with looser RMSE constraints on Landsat 5 imagery? 
+also trying to rerun phenology generator with annual data instead of biennial 
+fix linear interpolation for phenoseries? probably not actually a good way to do this...
+
+document clear linear relationship between GV and NDVI - less incentive to actually run MESMA in landscapes like this? at least if using Landsat timeseries 
+
+realized too late that there's seemingly something wrong with many of my MESMA unmixing results for data/stacked_scenes (VAFB Landsat 5) 
+- this means the GV pheno curves are unusable for the VAFB meeting this week >.<
+
+gv_change <- f(gv_before, spei, flow, year?)
+gv <- f(gv_before, month, month^2, spei, flow)
+consider flow not as accumulated flow, but number of months (or how late in year) flow persists
