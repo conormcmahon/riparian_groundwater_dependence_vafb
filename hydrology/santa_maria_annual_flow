@@ -1,0 +1,51 @@
+#
+#
+# US Geological Survey, Water Resources Data
+# retrieved: 2021-10-25 21:28:21 EDT      (caww01)
+#
+# This file contains USGS Surface-Water Annual Statistics
+#
+# Note:The statistics generated from  this site are based on approved daily-mean data and may not match those published by the USGS in official publications.
+# The user is responsible for assessment and use of statistics from this site.
+# For more details on why the statistics may not match, visit https://waterdata.usgs.gov/nwis/?dv_statistics_disclaimer.
+#
+# ** No Incomplete data have been used for statistical calculation
+#
+# This file includes the following columns:
+#
+#
+# agency_cd  agency code
+# site_no    USGS site number
+# parameter_cd
+# ts_id
+# year_nu    Water year for value
+# mean_va    annual-mean value.
+#             if there is not complete record
+#             for a year this field is blank
+#
+#
+# Sites in this file include:
+# USGS 11140585 SANTA MARIA R A SUEY CROSSING NR SANTA MARIA CA
+# 
+# Explanation of Parameter Code and ts_id used in the Statistics Data 
+# parameter_cd	Parameter Name					ts_id	Location Name
+# 00060		Discharge, cubic feet per second		295986	
+#
+#
+agency_cd	site_no	parameter_cd	ts_id	year_nu	mean_va
+5s	15s	5s	3n	4s	12n
+USGS	11140585	00060	295986	2007	9.87
+USGS	11140585	00060	295986	2008	34.1
+USGS	11140585	00060	295986	2009	0.754
+USGS	11140585	00060	295986	2010	43.9
+USGS	11140585	00060	295986	2011	146
+USGS	11140585	00060	295986	2012	13.3
+USGS	11140585	00060	295986	2013	0
+USGS	11140585	00060	295986	2014	0.079
+USGS	11140585	00060	295986	2015	0.406
+USGS	11140585	00060	295986	2016	0.981
+USGS	11140585	00060	295986	2017	62.2
+USGS	11140585	00060	295986	2018	13.3
+USGS	11140585	00060	295986	2019	45.2
+USGS	11140585	00060	295986	2020	2.57
+

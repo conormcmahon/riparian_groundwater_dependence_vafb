@@ -1,0 +1,69 @@
+#
+#
+# US Geological Survey, Water Resources Data
+# retrieved: 2021-10-25 21:24:07 EDT      (caww01)
+#
+# This file contains USGS Surface-Water Annual Statistics
+#
+# Note:The statistics generated from  this site are based on approved daily-mean data and may not match those published by the USGS in official publications.
+# The user is responsible for assessment and use of statistics from this site.
+# For more details on why the statistics may not match, visit https://waterdata.usgs.gov/nwis/?dv_statistics_disclaimer.
+#
+# ** No Incomplete data have been used for statistical calculation
+#
+# This file includes the following columns:
+#
+#
+# agency_cd  agency code
+# site_no    USGS site number
+# parameter_cd
+# ts_id
+# year_nu    Water year for value
+# mean_va    annual-mean value.
+#             if there is not complete record
+#             for a year this field is blank
+#
+#
+# Sites in this file include:
+# USGS 11134000 SANTA YNEZ R A H ST NR LOMPOC CA
+# 
+# Explanation of Parameter Code and ts_id used in the Statistics Data 
+# parameter_cd	Parameter Name					ts_id	Location Name
+# 00060		Discharge, cubic feet per second		8569	
+#
+#
+agency_cd	site_no	parameter_cd	ts_id	year_nu	mean_va
+5s	15s	5s	3n	4s	12n
+USGS	11134000	00060	8569	1953	24.1
+USGS	11134000	00060	8569	1954	3.75
+USGS	11134000	00060	8569	1955	0.289
+USGS	11134000	00060	8569	1956	36.8
+USGS	11134000	00060	8569	1957	0.051
+USGS	11134000	00060	8569	1958	181.4
+USGS	11134000	00060	8569	1959	23
+USGS	11134000	00060	8569	1960	0.332
+USGS	11134000	00060	8569	1961	0.227
+USGS	11134000	00060	8569	1962	114.7
+USGS	11134000	00060	8569	1999	32.2
+USGS	11134000	00060	8569	2000	65.1
+USGS	11134000	00060	8569	2001	292.5
+USGS	11134000	00060	8569	2002	3.49
+USGS	11134000	00060	8569	2003	16.3
+USGS	11134000	00060	8569	2004	1.75
+USGS	11134000	00060	8569	2005	574
+USGS	11134000	00060	8569	2006	102.1
+USGS	11134000	00060	8569	2007	0.66
+USGS	11134000	00060	8569	2008	82.6
+USGS	11134000	00060	8569	2009	1.23
+USGS	11134000	00060	8569	2010	28.1
+USGS	11134000	00060	8569	2011	191.2
+USGS	11134000	00060	8569	2012	0.821
+USGS	11134000	00060	8569	2013	0
+USGS	11134000	00060	8569	2014	0.317
+USGS	11134000	00060	8569	2015	0
+USGS	11134000	00060	8569	2016	0
+USGS	11134000	00060	8569	2017	33.9
+USGS	11134000	00060	8569	2018	0.386
+USGS	11134000	00060	8569	2019	46.5
+USGS	11134000	00060	8569	2020	8.53
+

@@ -1,0 +1,88 @@
+#
+#
+# US Geological Survey, Water Resources Data
+# retrieved: 2021-10-25 21:27:06 EDT      (caww01)
+#
+# This file contains USGS Surface-Water Annual Statistics
+#
+# Note:The statistics generated from  this site are based on approved daily-mean data and may not match those published by the USGS in official publications.
+# The user is responsible for assessment and use of statistics from this site.
+# For more details on why the statistics may not match, visit https://waterdata.usgs.gov/nwis/?dv_statistics_disclaimer.
+#
+# ** No Incomplete data have been used for statistical calculation
+#
+# This file includes the following columns:
+#
+#
+# agency_cd  agency code
+# site_no    USGS site number
+# parameter_cd
+# ts_id
+# year_nu    Water year for value
+# mean_va    annual-mean value.
+#             if there is not complete record
+#             for a year this field is blank
+#
+#
+# Sites in this file include:
+# USGS 11136100 SAN ANTONIO C NR CASMALIA CA
+# 
+# Explanation of Parameter Code and ts_id used in the Statistics Data 
+# parameter_cd	Parameter Name					ts_id	Location Name
+# 00060		Discharge, cubic feet per second		8581	
+#
+#
+agency_cd	site_no	parameter_cd	ts_id	year_nu	mean_va
+5s	15s	5s	3n	4s	12n
+USGS	11136100	00060	8581	1956	5.47
+USGS	11136100	00060	8581	1957	2.34
+USGS	11136100	00060	8581	1958	18.8
+USGS	11136100	00060	8581	1959	2.88
+USGS	11136100	00060	8581	1960	3.11
+USGS	11136100	00060	8581	1961	2.55
+USGS	11136100	00060	8581	1962	15.9
+USGS	11136100	00060	8581	1963	3.58
+USGS	11136100	00060	8581	1964	2.89
+USGS	11136100	00060	8581	1965	2.85
+USGS	11136100	00060	8581	1966	2.67
+USGS	11136100	00060	8581	1967	2.88
+USGS	11136100	00060	8581	1968	1.28
+USGS	11136100	00060	8581	1969	19.8
+USGS	11136100	00060	8581	1970	1.95
+USGS	11136100	00060	8581	1971	1.16
+USGS	11136100	00060	8581	1972	1.07
+USGS	11136100	00060	8581	1973	7.76
+USGS	11136100	00060	8581	1974	3.86
+USGS	11136100	00060	8581	1975	3.16
+USGS	11136100	00060	8581	1976	1.34
+USGS	11136100	00060	8581	1977	1
+USGS	11136100	00060	8581	1978	22.7
+USGS	11136100	00060	8581	1979	3.04
+USGS	11136100	00060	8581	1980	9.36
+USGS	11136100	00060	8581	1981	3.68
+USGS	11136100	00060	8581	1982	1.69
+USGS	11136100	00060	8581	1983	39.7
+USGS	11136100	00060	8581	1984	1.39
+USGS	11136100	00060	8581	1985	1.12
+USGS	11136100	00060	8581	1986	2.19
+USGS	11136100	00060	8581	1987	1
+USGS	11136100	00060	8581	1988	1.03
+USGS	11136100	00060	8581	1989	0.662
+USGS	11136100	00060	8581	1990	0.467
+USGS	11136100	00060	8581	1991	7.34
+USGS	11136100	00060	8581	1992	6.79
+USGS	11136100	00060	8581	1993	9.54
+USGS	11136100	00060	8581	1995	20.8
+USGS	11136100	00060	8581	1996	3.74
+USGS	11136100	00060	8581	1997	3.22
+USGS	11136100	00060	8581	1998	26.2
+USGS	11136100	00060	8581	1999	2.23
+USGS	11136100	00060	8581	2000	7.55
+USGS	11136100	00060	8581	2001	12.2
+USGS	11136100	00060	8581	2002	1.18
+USGS	11136100	00060	8581	2003	1.31
+USGS	11136100	00060	8581	2016	0.517
+USGS	11136100	00060	8581	2017	4.16
+USGS	11136100	00060	8581	2018	0.764
+USGS	11136100	00060	8581	2020	0.658
+
